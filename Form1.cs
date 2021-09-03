@@ -323,6 +323,17 @@ namespace BigBountyRecon
         private void button58_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://whatcms.org/?s=" + HttpUtility.UrlEncode(textBox1.Text));
+            
+        }
+        
+        private void button59_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://exchange.xforce.ibmcloud.com/url/" + HttpUtility.UrlEncode(textBox1.Text));
+        }
+
+        private void button60_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://securitytrails.com/domain/" + HttpUtility.UrlEncode(textBox1.Text) + "/dns/");
         }
 
         private void label1_Click(object sender, EventArgs e)
